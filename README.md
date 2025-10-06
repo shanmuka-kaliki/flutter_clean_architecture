@@ -36,62 +36,62 @@ lib
 │
 ├── core
 │   ├── constants
-│   │   └── app\_constants.dart
+│   │   └── app_constants.dart
 │   ├── errors
 │   │   ├── exceptions.dart
 │   │   └── failures.dart
 │   ├── providers
-│   │   └── firebase\_providers.dart
+│   │   └── firebase_providers.dart
 │   └── routes
-│       └── app\_router.dart
+│       └── app_router.dart
 │
 ├── features
 │   │
 │   ├── authentication
 │   │   ├── data
 │   │   │   ├── datasource
-│   │   │   │   └── auth\_remote\_data\_source.dart
+│   │   │   │   └── auth_remote_data_source.dart
 │   │   │   └── repositories
-│   │   │       └── auth\_repository\_impl.dart
+│   │   │       └── auth_repository_impl.dart
 │   │   ├── domain
 │   │   │   ├── entities
-│   │   │   │   └── user\_entity.dart
+│   │   │   │   └── user_entity.dart
 │   │   │   └── repositories
-│   │   │       └── auth\_repository.dart
+│   │   │       └── auth_repository.dart
 │   │   └── presentation
 │   │       ├── providers
-│   │       │   ├── auth\_state.dart
-│   │       │   └── auth\_state\_notifier.dart
+│   │       │   ├── auth_state.dart
+│   │       │   └── auth_state_notifier.dart
 │   │       └── screens
-│   │           └── login\_screen.dart
+│   │           └── login_screen.dart
 │   │
 │   └── posts
 │       ├── data
 │       │   ├── datasource
-│       │   │   └── posts\_remote\_data\_source.dart
+│       │   │   └── posts_remote_data_source.dart
 │       │   └── repositories
-│       │       └── posts\_repository\_impl.dart
+│       │       └── posts_repository_impl.dart
 │       ├── domain
 │       │   ├── entities
-│       │   │   └── post\_entity.dart
+│       │   │   └── post_entity.dart
 │       │   └── repositories
-│       │       └── posts\_repository.dart
+│       │       └── posts_repository.dart
 │       └── presentation
 │           ├── providers
-│           │   └── posts\_provider.dart
+│           │   └── posts_provider.dart
 │           ├── screens
-│           │   ├── post\_list\_screen.dart
-│           │   └── post\_detail\_screen.dart
+│           │   ├── post_list_screen.dart
+│           │   └── post_detail_screen.dart
 │           └── widgets
-│               └── post\_card.dart
+│               └── post_card.dart
 │
 ├── shared
 │   ├── theme
-│   │   ├── app\_colors.dart
-│   │   └── app\_theme.dart
+│   │   ├── app_colors.dart
+│   │   └── app_theme.dart
 │   └── widgets
-│       ├── app\_loading\_indicator.dart
-│       └── app\_error\_message.dart
+│       ├── app_loading_indicator.dart
+│       └── app_error_message.dart
 │
 ├── main.dart
 └── app.dart
