@@ -11,12 +11,6 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-# Basic Blog App
-
-A simple, scalable Flutter blogging application built with a Clean Architecture approach, featuring social login with Google and Apple.
-
----
-
 ## 🏛️ Architecture
 
 This project is built using **Clean Architecture** with a **feature-driven** approach. This design pattern separates the codebase into distinct, independent layers, making the application easy to test, maintain, and scale.
